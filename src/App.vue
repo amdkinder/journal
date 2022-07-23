@@ -1,6 +1,7 @@
 <template>
   <div id="app" vs-theme="dark">
-    <JNavbar></JNavbar>
+    <JNavbar />
+    <JBanner />
     <div style="min-height: 50vh">
       <router-view/>
     </div>
@@ -40,8 +41,9 @@ nav a.router-link-exact-active {
 <script>
 import JNavbar from "@/layouts/JNavbar";
 import JFooter from "@/layouts/JFooter";
+import JBanner from "@/layouts/JBanner";
 
 export default {
-  components: {JFooter, JNavbar}
+  components: {JBanner, JFooter, JNavbar}
 }
 </script>

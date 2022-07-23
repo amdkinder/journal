@@ -1,12 +1,11 @@
 <template>
-  <div>
+  <div class="j-navbar">
     <nav>
       <router-link v-for="menu in menus" :key="menu.link" :to="menu.link">
         <a class="menu-link">{{menu.name}}</a>
       </router-link>
       <div class="animation start-home"></div>
     </nav>
-    <h1>Science, education and agro-technology Journal</h1>
   </div>
 </template>
 
@@ -27,6 +26,9 @@ export default {
 </script>
 
 <style scoped>
+.j-navbar {
+  margin-bottom: 20px;
+}
 nav {
   margin: 27px auto 0;
   padding: 10px;
