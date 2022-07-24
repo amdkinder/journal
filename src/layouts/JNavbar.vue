@@ -1,6 +1,6 @@
 <template>
   <div class="center examplex">
-    <vs-navbar target-scroll="#hide-scroll-content" hide-scroll center-collapsed v-model="active">
+    <vs-navbar fixed target-scroll="#hide-scroll-content" hide-scroll center-collapsed v-model="active">
       <template #left>
         <img class="logo" src="../assets/images/logo-long.png" alt="">
       </template>
@@ -57,6 +57,6 @@ export default {
 }
 
 .examplex {
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 </style>
