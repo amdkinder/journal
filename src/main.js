@@ -6,6 +6,8 @@ import Vuesax from 'vuesax'
 Vue.config.productionTip = false
 
 import 'vuesax/dist/vuesax.css'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
 Vue.use(Vuesax, {})
 
 new Vue({

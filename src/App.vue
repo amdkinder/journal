@@ -1,7 +1,7 @@
 <template>
   <div id="app" vs-theme="dark">
     <JNavbar />
-    <JBanner />
+    <JBanner/>
     <div style="min-height: 50vh">
       <router-view/>
     </div>
@@ -10,24 +10,28 @@
 </template>
 
 <style>
+@font-face {
+  font-family: 'NoirRegular';
+  src: url('assets/fonts/NoirPro-Regular.ttf');
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
-
+* {
+  font-family: 'NoirRegular', serif;
+}
 body {
-  font-family: sans-serif;
-  background: #2c3e50;
+  background: #18191c !important;
   max-width: 100vw;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
   color: white;
 }
-
 
 nav a {
   font-weight: bold;
@@ -39,11 +43,11 @@ nav a.router-link-exact-active {
 }
 </style>
 <script>
-import JNavbar from "@/layouts/JNavbar";
 import JFooter from "@/layouts/JFooter";
 import JBanner from "@/layouts/JBanner";
+import JNavbar from "@/layouts/JNavbar";
 
 export default {
-  components: {JBanner, JFooter, JNavbar}
+  components: {JNavbar, JBanner, JFooter}
 }
 </script>

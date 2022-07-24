@@ -5,21 +5,23 @@
 </template>
 
 <script>
+
 export default {
-  name: "JBanner"
+  name: "JBanner",
+  components: {}
 }
 </script>
 
 <style lang="css" scoped>
-  .j-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    margin: 20px 10%;
-    position: relative;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../assets/images/banner1.jpg");
-    background-size: cover;
-    border-radius: 15px;
-  }
+.j-banner {
+  margin: 50px 10%;
+  height: 50vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.j-banner h1 {
+  font-size: 60px;
+}
 </style>
