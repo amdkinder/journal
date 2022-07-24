@@ -4,7 +4,7 @@
       <template #left>
         <img class="logo" src="../assets/images/logo-long.png" alt="">
       </template>
-      <vs-navbar-item v-for="menu in menus" :key="menu.link" :active="isActiveMenu(menu.link)" :id="menu.link">
+      <vs-navbar-item v-for="menu in menus" :key="menu.link" :active="isActiveMenu(menu.link)" :id="menu.link" :to="menu.link">
         {{ menu.name }}
       </vs-navbar-item>
       <template #right>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="footer">
   <p>
     By <span>Devcraft</span>
   </p>
@@ -19,9 +19,13 @@ p {
   bottom: 20px;
   width: 100%;
   text-align: center;
+  position: fixed;
   color: #ecf0f1;
   font-family: 'Cherry Swash',cursive;
   font-size: 16px;
+}
+.footer {
+  background: var(--vs-background);
 }
 
 span {
