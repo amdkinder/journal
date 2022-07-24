@@ -20,6 +20,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+/* dark background #1e2023*/
 
 * {
   font-family: 'NoirRegular', serif;

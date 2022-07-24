@@ -15,7 +15,7 @@ export default {
 <style lang="css" scoped>
 .j-banner {
   margin: 50px 10%;
-  height: 50vh;
+  height: 30vh;
   display: flex;
   position: relative;
   justify-content: center;

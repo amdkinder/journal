@@ -19,12 +19,13 @@ p {
   bottom: 20px;
   width: 100%;
   text-align: center;
-  position: fixed;
+  /*position: fixed;*/
   color: #ecf0f1;
   font-family: 'Cherry Swash',cursive;
   font-size: 16px;
 }
 .footer {
+  margin-top: 50px;
   background: var(--vs-background);
 }
 
