@@ -1,6 +1,6 @@
 <template>
   <div class="j-banner">
-    <h1>Science, education and agro-technology Journal</h1>
+    <h1>Science and education in agroculture</h1>
   </div>
 </template>
 
